@@ -1,0 +1,27 @@
+nav {
+    position: fixed;
+    width: 13%;
+    top: 15vh;
+    text-align: center;
+    left: 0;
+    font-size: 23px;
+
+    ul {
+        list-style-type:none;
+        list-style-image:none;
+        margin: 1em 0 0 0;
+        padding:0;
+
+        a {
+            display: block;
+            color: inherit;
+            text-decoration:none;
+            padding-top: 1em;
+            padding-bottom: 1em;
+
+            &:hover {
+                background-color:#585858;
+            }
+        }
+    }
+}

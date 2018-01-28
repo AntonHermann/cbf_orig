@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Crunchy Bullfrog - {{page}}</title>
+    {% block head %}{% endblock %}
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    {% include "partials/header.nj" %}
+    {% include "partials/menu.nj" %}
+    <main class="{{page}}">
+        {% block content %}{% endblock %}
+    </main>
+</body>
+
+</html>
